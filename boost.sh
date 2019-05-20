@@ -6,6 +6,7 @@ red='\033[31;1m'
 white='\033[37;1m'                                                                        
 yellow='\033[33;1m'
 
+mv rocket.cow /data/data/com.termux/files/usr/share
 clear
 cowsay -f rocket "Buat Hp Anda Jadi Baru!" | lolcat
 read -p "Enter Tuk Lanjut!" p
